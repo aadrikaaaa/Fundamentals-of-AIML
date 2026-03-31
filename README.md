@@ -5,7 +5,6 @@ A search-based AI system that helps students find optimal routes between campus 
 **Status:** Production-ready  
 **Language:** Python 3.8+  
 **Algorithms:** BFS, DFS, UCS, A*  
-**License:** Educational Use
 
 ---
 
@@ -397,7 +396,7 @@ campus_navigation_byop/
 
 ## 🔗 Related Resources
 
-- **Full Project Report**: [Project_Report.md](report/Project_Report.md)
+- **Full Project Report**: https://github.com/aadrikaaaa/Fundamentals-of-AIML/blob/main/Project_Report.pdf
 - **Course Alignment**: Covers AI/ML modules 1-2.5 (Fundamentals)
 - **Algorithms Reference**: See search.py for annotated implementations
 
@@ -419,7 +418,3 @@ This project was built as a strong BYOP (Build Your Own Project) submission beca
 ✅ Works well in viva demonstrations  
 ✅ Has clear output and easy validation  
 ✅ Can be extended with interesting features  
-
-## License
-
-Educational use only. For more details, see project documentation.
