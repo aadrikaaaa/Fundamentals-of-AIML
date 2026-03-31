@@ -59,12 +59,6 @@ Target:
 
 ## How to run
 
-Make sure you are in the project root:
-
-```bash
-cd /Users/kinjalk/Downloads/BYOP
-```
-
 Generate the dataset, train the model, and evaluate it:
 
 ```bash
