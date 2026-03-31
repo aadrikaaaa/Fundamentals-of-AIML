@@ -9,13 +9,13 @@ A search-based AI system that helps students find optimal routes between campus 
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project builds a practical AI agent that solves real-world routing problems on a college campus. Instead of blindly following the shortest path, it intelligently considers multiple constraints like accessibility, crowd levels, and shade availability.
 
 The system models the campus as a directed graph and applies classical search algorithms to find paths that match student needs. It serves as both a useful tool and a demonstration of AI problem-solving techniques.
 
-## 📍 Campus Locations
+## Campus Locations
 
 The system covers 12 major campus locations:
 
@@ -31,7 +31,7 @@ The system covers 12 major campus locations:
 | **Events** | Recreation | Auditorium |
 | **Sports** | Recreation | Sports Ground |
 
-## 🔧 System Architecture
+## System Architecture
 
 ### Components
 
@@ -73,7 +73,7 @@ The campus graph is represented in `campus_map.json`:
 }
 ```
 
-## 🔍 Search Algorithms
+## Search Algorithms
 
 ### Uninformed Search
 
@@ -132,7 +132,7 @@ python3 src/planner.py \
   --algorithm astar
 ```
 
-## ⚙️ Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -148,7 +148,7 @@ cd /Users/kinjalk/Downloads/BYOP/campus_navigation_byop
 pip install -r requirements.txt
 ```
 
-## 🚀 Usage
+## Usage
 
 ### Basic Commands
 
@@ -228,7 +228,7 @@ python3 src/planner.py \
   --map-file /path/to/custom_map.json
 ```
 
-## 📊 Output Explanation
+## Output Explanation
 
 When a route is found, you'll see:
 
@@ -252,7 +252,7 @@ Prefer shade          : False
 | **Search cost** | Cost used by algorithm (includes crowd/shade penalties) |
 | **Expanded nodes** | Number of nodes explored during search |
 
-## 🎓 Educational Value
+## Educational Value
 
 This project demonstrates:
 
@@ -263,7 +263,7 @@ This project demonstrates:
 - **Graph Algorithms**: Adjacency lists, heuristics, path reconstruction
 - **Agent Design**: Goal-driven problem solving
 
-## 📋 Command Reference
+## Command Reference
 
 ```bash
 python3 src/planner.py [options]
@@ -294,7 +294,7 @@ Examples:
   python3 src/planner.py --start "Hostel B" --goal "Auditorium" --algorithm ucs --avoid-crowds --prefer-shade
 ```
 
-## 🔬 Algorithm Comparison
+## Algorithm Comparison
 
 | Algorithm | Time | Space | Optimal | Use Case |
 |-----------|------|-------|---------|----------|
@@ -303,7 +303,7 @@ Examples:
 | **UCS** | O(E log V) | O(V) | ✓ | Cost-aware |
 | **A*** | O(E log V) | O(V) | ✓ | Recommended |
 
-## 💡 Use Cases
+## Use Cases
 
 ### Scenario 1: Fresher's First Day
 Find the fastest route from hostel to class:
@@ -350,7 +350,7 @@ for algo in bfs dfs ucs astar; do
 done
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 campus_navigation_byop/
@@ -368,7 +368,7 @@ campus_navigation_byop/
 └── requirements.txt             # Dependencies
 ```
 
-## 📚 File Descriptions
+## File Descriptions
 
 ### `campus_map.json`
 - Defines all 12 campus locations with coordinates
@@ -401,7 +401,7 @@ campus_navigation_byop/
 - **Course Alignment**: Covers AI/ML modules 1-2.5 (Fundamentals)
 - **Algorithms Reference**: See search.py for annotated implementations
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - ✨ Time-of-day traffic patterns
 - ✨ Real-time crowd data integration
@@ -411,7 +411,7 @@ campus_navigation_byop/
 - ✨ Multi-campus support
 - ✨ Route caching and analytics
 
-## 📝 Notes
+## Notes
 
 - The `--start` and `--goal` parameters are required arguments for the argument parser but are ignored when `--list-locations` is used
 - All paths are bidirectional (going from A to B is same as B to A)
@@ -419,7 +419,7 @@ campus_navigation_byop/
 - The heuristic function uses Euclidean distance based on stored coordinates
 - All distances are in consistent units (campus grid units)
 
-## 👤 Author Notes
+## Author Notes
 
 This project was built as a strong BYOP (Build Your Own Project) submission because it:
 
@@ -430,6 +430,6 @@ This project was built as a strong BYOP (Build Your Own Project) submission beca
 ✅ Has clear output and easy validation  
 ✅ Can be extended with interesting features  
 
-## 📄 License
+## License
 
 Educational use only. For more details, see project documentation.
