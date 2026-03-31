@@ -401,16 +401,6 @@ campus_navigation_byop/
 - **Course Alignment**: Covers AI/ML modules 1-2.5 (Fundamentals)
 - **Algorithms Reference**: See search.py for annotated implementations
 
-## Future Enhancements
-
-- ✨ Time-of-day traffic patterns
-- ✨ Real-time crowd data integration
-- ✨ Temporary road closure handling
-- ✨ Web interface for visualization
-- ✨ Mobile app support
-- ✨ Multi-campus support
-- ✨ Route caching and analytics
-
 ## Notes
 
 - The `--start` and `--goal` parameters are required arguments for the argument parser but are ignored when `--list-locations` is used
